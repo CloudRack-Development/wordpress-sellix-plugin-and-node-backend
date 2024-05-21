@@ -15,6 +15,9 @@ __**Step Two**__
 cd wordpress-sellix-plugin-and-node-backend
 ```
 __**Step Three**__
+
+Before unzipping the zip folder you may see the backend code located (Here)[https://github.com/StormMoran/my-project/tree/main/backend] to ensure reliability and or security.
+
 ```bash
 unzip node\ backend.zip sellix-product-display.zip
 ```

@@ -26,10 +26,13 @@ You will need Node.js running for the backend to work and a way to expose the ba
     unzip node-backend.zip && unzip sellix-product-display.zip
     ```
 
+    You will be `prompted two times` to replace the files that are unzipped Press `Shift+A` after which press `Enter` now do this one more time.
+    This will replace all the files with the new updated Zipped Files.
+
 4. **Clean up the unnecessary zip files**
 
     ```bash
-    rm -rf sellix-product-display.zip "node backend.zip"
+    rm -rf node-backend.zip
     ```
 
 5. **Edit the `.env` file**

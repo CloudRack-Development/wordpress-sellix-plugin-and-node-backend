@@ -1,2 +1,4 @@
-# wordpress-sellix-plugin-and-node-backend
-wordpress-sellix-plugin-and-node-backend
+# SellPress + Node.js Backend
+
+### Getting started
+- 

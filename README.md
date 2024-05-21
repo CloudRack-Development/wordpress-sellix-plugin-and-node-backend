@@ -32,8 +32,10 @@ Edit The `.env` file or you may use
 cd backend/ && nano .env
 ```
 __**Step Six**__
+
+Make sure to fillout the .env file first prior to running.
 ```bash
-npm install express && npm run start
+npm install && npm run start
 ```
 
 ### Setting Up The WordPress Plugin

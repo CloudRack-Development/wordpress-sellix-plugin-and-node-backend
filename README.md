@@ -8,7 +8,7 @@ You Will Need Node.js running for the backend to work and a way to expose the ba
 
 __**Step One**__
 ```bash
-git clone https://github.com/StormMoran/wordpress-sellix-plugin-and-node-backend.git
+git clone https://github.com/CloudRack-Development/wordpress-sellix-plugin-and-node-backend.git
 ```
 __**Step Two**__
 ```bash

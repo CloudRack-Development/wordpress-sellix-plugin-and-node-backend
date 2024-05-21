@@ -16,7 +16,7 @@ cd wordpress-sellix-plugin-and-node-backend
 ```
 __**Step Three**__
 
-Before unzipping the zip folder you may see the backend code located [Here](https://github.com/StormMoran/my-project/tree/main/backend) to ensure reliability and or security.
+Before unzipping the zip folder you may see the backend code located [Here](https://github.com/CloudRack-Development/my-project/tree/main/backend) to ensure reliability and or security.
 
 ```bash
 unzip node\ backend.zip sellix-product-display.zip
@@ -40,7 +40,7 @@ npm install express && npm run start
 
 __**Step One**__
 
-Simply download the plugin from [this link](https://github.com/StormMoran/wordpress-sellix-plugin-and-node-backend/raw/main/sellix-product-display.zip).
+Simply download the plugin from [this link](https://github.com/CloudRack-Development/wordpress-sellix-plugin-and-node-backend/raw/main/sellix-product-display.zip).
 
 __**Step Two**__
 Go to yourdomain.com`/wp-admin/plugin-install.php` and upload the plugin you just installed above.
@@ -69,4 +69,4 @@ Lastly just paste in the short-code presented below to any page you want to disp
 
 ## Last Step Make Money.
 
-> please note i am not affiliated with sellix in any means.
+> Please note We are not affiliated with Sellix in any means.

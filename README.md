@@ -33,7 +33,11 @@ cd backend/ && nano .env
 ```
 __**Step Six**__
 
-Make sure to fillout the .env file first prior to running.
+Make sure to fillout the .env file first prior to running. 
+```bash
+cp .env.example .env && nano .env
+```
+
 ```bash
 npm install && npm run start
 ```

@@ -40,10 +40,10 @@ __**Step One**__
 Simply download the plugin from [this link](https://github.com/StormMoran/wordpress-sellix-plugin-and-node-backend/raw/main/sellix-product-display.zip).
 
 __**Step Two**__
-Go to https://yourdomain.com`/wp-admin/plugin-install.php` and upload the plugin you just installed above.
+Go to yourdomain.com`/wp-admin/plugin-install.php` and upload the plugin you just installed above.
 
 __**Step Three**__
-go to https://yourdomain.com`/wp-admin/options-general.php?page=sellix-product-display` replacing yourdomain.com with your actual domain and enter in the credentials requried. (or you can go to the wp-admin section of your site and look for the following images below once you haveve installed tha plugin)
+go to yourdomain.com`/wp-admin/options-general.php?page=sellix-product-display` replacing yourdomain.com with your actual domain and enter in the credentials requried. (or you can go to the wp-admin section of your site and look for the following images below once you haveve installed tha plugin)
 
 ![alt text](https://i.ibb.co/rwg5pWP/image.png)
 

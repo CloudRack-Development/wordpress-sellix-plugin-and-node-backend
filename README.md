@@ -1,4 +1,4 @@
-# SellPress (Sellix.io WordPress Plugin) + Node.js Backend V0.0.1
+# SellPress (Sellix.io WordPress Plugin) + Node.js Backend V0.1.1
 
 ## Getting Started
 

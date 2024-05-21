@@ -5,7 +5,7 @@ The Sellix Product Display Plugin allows you to fetch and display products from 
 ## Installation
 
 1. **Download the Plugin:**
-   - Download the plugin files.
+   - Download the plugin files. Located [HERE](https://github.com/CloudRack-Development/wordpress-sellix-plugin-and-node-backend/raw/main/sellix-product-display.zip)
 
 2. **Upload the Plugin:**
    - Go to your WordPress dashboard.

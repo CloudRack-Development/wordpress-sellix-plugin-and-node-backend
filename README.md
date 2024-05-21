@@ -108,3 +108,13 @@ For further details and advanced configurations, please refer to the plugin's se
 ---
 
 Feel free to reach out via our Discord for any support or inquiries.
+
+
+## Support
+
+For support, join our [Discord](https://discord.gg/MKnNmVNnPY).
+
+---
+
+**Version:** 1.1
+**Author:** [Cloudrack Development](https://discord.gg/MKnNmVNnPY)

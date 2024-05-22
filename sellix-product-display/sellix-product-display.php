@@ -2,7 +2,7 @@
 /*
 Plugin Name: Sellix Product Display
 Description: Fetches and displays Sellix.io products for sale.
-Version: 1.1
+Version: 1.3
 Author: <a href="https://discord.gg/MKnNmVNnPY">Cloudrack Development</a>
 */
 
@@ -16,6 +16,12 @@ include_once('Parsedown.php');
 add_shortcode('sellix_products', 'sellix_display_products');
 
 function sellix_display_products($atts) {
+    $hide_shortcode = get_option('sellix_hide_shortcode', 'no');
+
+    if ($hide_shortcode === 'yes') {
+        return ''; // Return empty if shortcode display is hidden
+    }
+
     // Fetch API URL and API key from database
     $api_url = get_option('sellix_api_url');
     $api_key = get_option('sellix_api_key');
@@ -53,14 +59,11 @@ function sellix_display_products($atts) {
     $output = '<div class="sellix-products">';
     foreach ($products as $product) {
         $price_in_currency = $product['price'] * $exchange_rate;
-
-        // Apply rounding if necessary
         if ($rounding_option === 'half') {
-            $price_in_currency = round($price_in_currency * 2) / 2;
+            $price_in_currency = round($price_in_currency * 2) / 2; // Round to nearest half dollar
         } elseif ($rounding_option === 'whole') {
-            $price_in_currency = round($price_in_currency);
+            $price_in_currency = round($price_in_currency); // Round to nearest whole dollar
         }
-
         $output .= '<div class="sellix-product">';
         $output .= '<h3 class="sellix-product-title">' . esc_html($product['title']) . '</h3>';
         $output .= '<p class="sellix-product-price"><strong>Price:</strong> $' . number_format($price_in_currency, 2) . ' ' . $currency . '</p>';
@@ -128,22 +131,21 @@ function sellix_plugin_activate() {
     add_option('freecurrencyapi_key', '');
     add_option('sellix_currency', 'CAD'); // Add default currency option
     add_option('sellix_rounding_option', 'none'); // Add default rounding option
-    add_option('sellix_custom_prices'); // custom pricing settings
-
+    add_option('sellix_hide_shortcode', 'no'); // Add default hide shortcode option
 }
 
 // Deactivation hook
 register_deactivation_hook(__FILE__, 'sellix_plugin_deactivate');
 
-// function sellix_plugin_deactivate() {
+function sellix_plugin_deactivate() {
     // Remove options on plugin deactivation
-    // delete_option('sellix_api_url');
-    // delete_option('sellix_api_key');
-    // delete_option('freecurrencyapi_key');
-    // delete_option('sellix_currency');
-    // delete_option('sellix_rounding_option');
-    // delete_option('sellix_custom_prices');
-// }
+    delete_option('sellix_api_url');
+    delete_option('sellix_api_key');
+    delete_option('freecurrencyapi_key');
+    delete_option('sellix_currency');
+    delete_option('sellix_rounding_option');
+    delete_option('sellix_hide_shortcode');
+}
 
 // Uninstall hook
 register_uninstall_hook(__FILE__, 'sellix_plugin_uninstall');
@@ -155,6 +157,6 @@ function sellix_plugin_uninstall() {
     delete_option('freecurrencyapi_key');
     delete_option('sellix_currency');
     delete_option('sellix_rounding_option');
-    delete_option('sellix_custom_prices');
+    delete_option('sellix_hide_shortcode');
 }
 ?>

@@ -53,5 +53,5 @@ For support, join our [Discord](https://discord.gg/MKnNmVNnPY).
 
 ---
 
-**Version:** 1.1
+**Version:** 1.2
 **Author:** [Cloudrack Development](https://discord.gg/MKnNmVNnPY)

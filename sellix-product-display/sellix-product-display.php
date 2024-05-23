@@ -2,7 +2,7 @@
 /*
 Plugin Name: CRD-Sellix-Product-Display
 Description: Fetches and displays Sellix.io products for sale.
-Version: 1.3
+Version: 1.5
 Author: <a href="https://discord.gg/MKnNmVNnPY">Cloudrack Development</a>
 */
 

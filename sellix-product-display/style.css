@@ -10,8 +10,8 @@
     padding: 20px;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    flex: 1 0 calc(33.33% - 20px);
-    max-width: calc(33.33% - 20px);
+    flex: 1 0 calc(50% - 20px); /* Adjusted flex basis for 2 items per row */
+    max-width: calc(50% - 20px); /* Adjusted max-width for 2 items per row */
 }
 
 .sellix-product-title {
@@ -58,4 +58,11 @@
 
 .sellix-product-button:hover {
     background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .sellix-product {
+        flex: 1 0 calc(50% - 20px); /* Adjusted flex basis for 2 items per row */
+        max-width: calc(50% - 20px); /* Adjusted max-width for 2 items per row */
+    }
 }

@@ -106,6 +106,6 @@ For support, join our [Discord](https://discord.gg/MKnNmVNnPY).
 
 ---
 
-**Version:** 1.2
+**Version:** 1.5
 **Author:** [Cloudrack Development](https://discord.gg/MKnNmVNnPY)
 

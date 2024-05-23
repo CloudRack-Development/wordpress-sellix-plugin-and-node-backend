@@ -37,7 +37,18 @@ The Sellix Product Display Plugin allows you to fetch and display products from 
 2. **View Products:**
    - Visit the page or post where you added the shortcode to see the products displayed.
 
-3. If you like to be able to customize this plugin more if you are a developer please feel free there is a note in the settings page to read the readme for the missing `sellix_api_key_render()` function that function is below add it in please
+## Rounding Prices
+
+The plugin allows you to round prices to the nearest half dollar or whole dollar. You can select the rounding option in the settings page.
+
+## Uninstall
+
+To uninstall the plugin:
+1. Deactivate the plugin from the `Plugins` page.
+2. Delete the plugin from the `Plugins` page.
+
+## Developers Note
+   If you like to be able to customize this plugin more if you are a developer please feel free there is a note in the settings page to read the readme for the missing `sellix_api_key_render()` function that function is below add it in place
    of the note in settings that states to read the readme.
 
 ```php
@@ -49,16 +60,6 @@ function sellix_api_key_render() {
     <?php
 }
 ```
-
-## Rounding Prices
-
-The plugin allows you to round prices to the nearest half dollar or whole dollar. You can select the rounding option in the settings page.
-
-## Uninstall
-
-To uninstall the plugin:
-1. Deactivate the plugin from the `Plugins` page.
-2. Delete the plugin from the `Plugins` page.
 
 ## Support
 

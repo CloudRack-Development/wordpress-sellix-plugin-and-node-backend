@@ -20,11 +20,10 @@ The Sellix Product Display Plugin allows you to fetch and display products from 
 
 1. **API Settings:**
    - Go to `Settings` > `Sellix Product Display`.
-   - Enter your `API Base URL`. This is the base URL of your backend running the Sellix API. For example, if your Sellix API is at `https://your-domain.com/api/Products`, enter `https://your-domain.com`.
-   - Enter your `Sellix API Key`.
+   - Enter your `API Base URL`. Defined in the plugin how to setup.
    - Enter your `Free Currency API Key`.
    - Select your preferred currency from the dropdown menu.
-   - Select the rounding option for prices (None, Half Dollar, Whole Dollar).
+   - Select the rounding option for prices (None, Quarter Dollar, Half Dollar, Whole Dollar).
 
 2. **Save Settings:**
    - Click `Save Changes` to save your API and currency settings.

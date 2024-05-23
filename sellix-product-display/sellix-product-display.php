@@ -2,7 +2,7 @@
 /*
 Plugin Name: CRD-Sellix-Product-Display
 Description: Fetches and displays Sellix.io products for sale.
-Version: 1.5
+Version: 1.3
 Author: <a href="https://discord.gg/MKnNmVNnPY">Cloudrack Development</a>
 */
 
@@ -34,14 +34,14 @@ function sellix_display_products($atts) {
         return '<p>Error: API URL is not configured.</p>';
     }
 
-    // Check if API key is empty remove // from below 3 lines to make active
+    // Check if API key is empty
     // if (empty($api_key)) {
         // return '<p>Error: API Key is not configured.</p>';
     // }
 
     // Check if currency API key is empty
     if (empty($currency_api_key)) {
-        return '<p>Error: Currency API Key is not configured. If you are an admin please obtain your free key by going to <a href="https://app.freecurrencyapi.com/register" target="_blank">freecurrencyapi.com</a>; this is also needed to make proper currency conversions. If you are not an admin of this site please inform them if you can.</p>';
+        return '<p>Error: Currency API Key is not configured. Please obtain your free key by going to <a href="https://app.freecurrencyapi.com/register" target="_blank">freecurrencyapi.com</a></p>';
     }
 
     // Fetch exchange rate from Free Currency API

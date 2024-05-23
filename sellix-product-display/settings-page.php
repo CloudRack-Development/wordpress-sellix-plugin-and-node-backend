@@ -97,13 +97,8 @@ function sellix_api_url_render() {
     <?php
 }
 
-function sellix_api_key_render() {
-    $api_key = get_option('sellix_api_key');
-    ?>
-    <input type="password" name="sellix_api_key" value="<?php echo esc_attr($api_key); ?>" />
-    <p class="description"><?php _e('Enter your Sellix API key here.', 'sellix'); ?></p>
-    <?php
-}
+// Check the readme for more information in regards to the sellix_api_key_render() Function
+
 
 function freecurrencyapi_key_render() {
     $currency_api_key = get_option('freecurrencyapi_key');

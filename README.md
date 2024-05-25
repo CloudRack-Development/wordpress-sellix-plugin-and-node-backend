@@ -20,7 +20,7 @@ You will need Node.js running for the backend to work and a way to expose the ba
 
 3. **Unzip the necessary files**
 
-    Before unzipping the zip folder, you may review the backend code located [Here](https://github.com/CloudRack-Development/my-project/tree/main/backend) to ensure reliability and security.
+    Before unzipping the zip folder, you may review the backend code located [Here](https://github.com/CloudRack-Development/my-project//raw/main/backend.zip) to ensure reliability and security.
 
     ```bash
     unzip node-backend.zip && unzip sellix-product-display.zip

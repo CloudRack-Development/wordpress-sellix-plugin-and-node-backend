@@ -20,7 +20,7 @@ You will need Node.js running for the backend to work and a way to expose the ba
 
 3. **Unzip the necessary files**
 
-    Before unzipping the zip folder, you may review the backend code located [Here](https://github.com/CloudRack-Development/wordpress-sellix-plugin-and-node-backend/blob/main/node-backend.zip) to ensure reliability and security.
+    Before unzipping the zip folder, you may review the backend code located [Here](https://github.com/CloudRack-Development/wordpress-sellix-plugin-and-node-backend/raw/main/node-backend.zip) to ensure reliability and security.
 
     ```bash
     unzip node-backend.zip && unzip sellix-product-display.zip

@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-You will need Node.js running for the backend to work and a way to expose the backend API publicly as locally will not work unless you are able to route your traffic.
+You will need Node.js running for the backend to work and a way to expose the backend API publicly as locally will not work unless you can route your traffic.
 
 ### Setting Up The Backend
 
@@ -11,14 +11,15 @@ You will need Node.js running for the backend to work and a way to expose the ba
     ```bash
     git clone https://github.com/CloudRack-Development/wordpress-sellix-plugin-and-node-backend.git
     ```
-
-2. **Navigate to the project directory**
+    We can provide free hosting for the node.js backend once our whole frontend/backend is completed.
+      
+3. **Navigate to the project directory**
 
     ```bash
     cd wordpress-sellix-plugin-and-node-backend
     ```
 
-3. **Unzip the necessary files**
+4. **Unzip the necessary files**
 
     Before unzipping the zip folder, you may review the backend code located [Here](https://github.com/CloudRack-Development/wordpress-sellix-plugin-and-node-backend/raw/main/node-backend.zip) to ensure reliability and security.
 
@@ -29,13 +30,13 @@ You will need Node.js running for the backend to work and a way to expose the ba
     You will be `prompted two times` to replace the files that are unzipped Press `Shift+A` after which press `Enter` now do this one more time.
     This will replace all the files with the new updated Zipped Files.
 
-4. **Clean up the unnecessary zip files**
+5. **Clean up the unnecessary zip files**
 
     ```bash
     rm -rf node-backend.zip
     ```
 
-5. **Edit the `.env` file**
+6. **Edit the `.env` file**
 
     Make sure to fill out the `.env` file first prior to running. You can copy the example file and edit it:
 
@@ -45,7 +46,7 @@ You will need Node.js running for the backend to work and a way to expose the ba
     nano .env
     ```
 
-6. **Install dependencies and start the backend**
+7. **Install dependencies and start the backend**
 
     ```bash
     npm install

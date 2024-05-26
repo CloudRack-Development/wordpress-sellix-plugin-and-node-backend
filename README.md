@@ -24,7 +24,7 @@ You will need Node.js running for the backend to work and a way to expose the ba
     Before unzipping the zip folder, you may review the backend code located [Here](https://github.com/CloudRack-Development/wordpress-sellix-plugin-and-node-backend/raw/main/node-backend.zip) to ensure reliability and security.
 
     ```bash
-    unzip node-backend.zip && unzip sellix-product-display.zip
+    unzip node-backend.zip
     ```
 
     You will be `prompted two times` to replace the files that are unzipped Press `Shift+A` after which press `Enter` now do this one more time.

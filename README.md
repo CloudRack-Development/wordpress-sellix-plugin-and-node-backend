@@ -27,7 +27,7 @@ You will need Node.js running for the backend to work and a way to expose the ba
     unzip node-backend.zip
     ```
 
-    You will be `prompted two times` to replace the files that are unzipped Press `Shift+A` after which press `Enter` now do this one more time.
+    You will be `prompted` to replace the files that are unzipped with the current if any. Press `Shift+A` after which press `Enter`.
     This will replace all the files with the new updated Zipped Files.
 
 5. **Clean up the unnecessary zip files**

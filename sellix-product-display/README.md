@@ -59,6 +59,11 @@ function sellix_api_key_render() {
     <?php
 }
 ```
+## License
+
+This project is licensed under the GNU General Public License v2 (GPLv2).  You can find the complete license text in the file.
+
+[Link to GPLv2 text on GNU website](https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt)
 
 ## Support
 

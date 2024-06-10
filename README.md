@@ -11,7 +11,7 @@ You will need Node.js running for the backend to work and a way to expose the ba
     ```bash
     git clone https://github.com/CloudRack-Development/wordpress-sellix-plugin-and-node-backend.git
     ```
-    We can provide free hosting for the node.js backend once our whole frontend/backend is completed.
+    We can provide free hosting for the node.js backend once our whole frontend/backend is completed, please inform us if you are interested by emailing us at support@cloudrack.ca
       
 3. **Navigate to the project directory**
 
